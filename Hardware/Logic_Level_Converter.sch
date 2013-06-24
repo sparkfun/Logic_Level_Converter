@@ -7754,9 +7754,9 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 <part name="P+1" library="SparkFun" deviceset="VCC" device="" value="LV"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device="" value="HV"/>
 <part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="20K"/>
 <part name="R8" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
-<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="R9" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="20K"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun" deviceset="M06" device="SIP"/>
@@ -7824,6 +7824,7 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 <text x="251.46" y="177.8" size="1.778" layer="97">Library update, increased annular rings</text>
 <text x="251.46" y="172.72" size="1.778" layer="97">BOM changes, NO</text>
 <text x="251.46" y="167.64" size="1.778" layer="97">New Stencil, NO</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V13</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

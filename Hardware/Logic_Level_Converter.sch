@@ -85,6 +85,7 @@
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
@@ -4102,6 +4103,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="10.7163" y="0.9449"/>
 </polygon>
 </package>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
+</package>
 </packages>
 <symbols>
 <symbol name="OSHW-LOGO">
@@ -7665,6 +7671,11 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="7.62" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="0" y="0" size="1.9304" layer="94">SFE</text>
 </symbol>
+<symbol name="CREATIVE_COMMONS">
+<text x="0" y="5.08" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="0" y="0" size="1.778" layer="95">Design by:</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OSHW-LOGO">
@@ -7729,6 +7740,19 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CREATIVE_COMMONS" prefix="CC_TEXT">
+<description>Creative Commons License summary</description>
+<gates>
+<gate name="G$1" symbol="CREATIVE_COMMONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CREATIVE_COMMONS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -7765,6 +7789,7 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 <part name="JP4" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="JP5" library="SparkFun-Aesthetics" deviceset="LOGO-SFE" device="NW2" value="LOGO-SFENW2"/>
+<part name="CC_TEXT1" library="SparkFun-Aesthetics" deviceset="CREATIVE_COMMONS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7800,31 +7825,34 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 <text x="175.26" y="170.18" size="3.302" layer="95">Channel 2</text>
 <text x="169.672" y="104.394" size="3.302" layer="95">High Voltage</text>
 <text x="50.546" y="105.41" size="3.302" layer="95">Low Voltage</text>
-<text x="104.14" y="88.9" size="3.81" layer="95">Examples</text>
+<text x="104.14" y="101.6" size="3.81" layer="95">Examples</text>
 <text x="109.22" y="82.55" size="3.81" layer="94">HV</text>
 <text x="123.19" y="82.55" size="3.81" layer="94">LV</text>
 <text x="137.16" y="86.36" size="2.54" layer="94">RX_LV</text>
 <text x="139.7" y="82.55" size="2.54" layer="94">Max</text>
 <text x="109.22" y="77.47" size="2.54" layer="95">5V</text>
 <text x="123.19" y="77.47" size="2.54" layer="95">3.3V</text>
-<text x="138.43" y="77.47" size="2.54" layer="95">2.5V</text>
+<text x="138.43" y="77.47" size="2.54" layer="95">3.3V</text>
 <text x="109.22" y="72.39" size="2.54" layer="95">3.3V</text>
 <text x="109.22" y="67.31" size="2.54" layer="95">5V</text>
 <text x="123.19" y="72.39" size="2.54" layer="95">2.8V</text>
 <text x="123.19" y="67.31" size="2.54" layer="95">2.8V</text>
-<text x="138.43" y="72.39" size="2.54" layer="95">1.6V</text>
-<text x="138.43" y="67.31" size="2.54" layer="95">2.5V</text>
+<text x="138.43" y="72.39" size="2.54" layer="95">2.2 V</text>
+<text x="138.43" y="67.31" size="2.54" layer="95">3.3V</text>
 <text x="109.22" y="62.23" size="2.54" layer="95">5V</text>
 <text x="123.19" y="62.23" size="2.54" layer="95">1.8V</text>
-<text x="138.43" y="62.23" size="2.54" layer="95">2.5V</text>
+<text x="138.43" y="62.23" size="2.54" layer="95">3.3V</text>
 <text x="109.22" y="57.15" size="2.54" layer="95">3.3V</text>
 <text x="123.19" y="57.15" size="2.54" layer="95">1.8V</text>
-<text x="138.43" y="57.15" size="2.54" layer="95">1.6V</text>
+<text x="138.43" y="57.15" size="2.54" layer="95">2.2V</text>
 <text x="251.46" y="180.34" size="1.778" layer="97">Changes made to v12</text>
 <text x="251.46" y="177.8" size="1.778" layer="97">Library update, increased annular rings</text>
 <text x="251.46" y="172.72" size="1.778" layer="97">BOM changes, NO</text>
 <text x="251.46" y="167.64" size="1.778" layer="97">New Stencil, NO</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V13</text>
+<text x="104.14" y="93.98" size="2.54" layer="94" font="vector">RX_LV Max = HV x (0.67)</text>
+<text x="17.78" y="5.08" size="1.778" layer="97" font="vector">Nathan Seidle </text>
+<text x="40.64" y="5.08" size="1.778" layer="97" font="vector">Rev V13 by Patrick Alberts</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -7861,6 +7889,7 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 <instance part="JP4" gate="G$1" x="205.74" y="33.02"/>
 <instance part="U$2" gate="G$1" x="236.22" y="45.72"/>
 <instance part="JP5" gate="G$1" x="210.82" y="40.64"/>
+<instance part="CC_TEXT1" gate="G$1" x="5.08" y="5.08"/>
 </instances>
 <busses>
 </busses>

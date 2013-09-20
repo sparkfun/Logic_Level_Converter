@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -148,8 +148,8 @@
 <text x="14.986" y="7.874" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">HV</text>
 <text x="14.732" y="3.556" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">LV</text>
 <text x="15.113" y="7.493" size="0.8128" layer="16" font="vector" ratio="15" rot="MR270">V13</text>
-<text x="48.26" y="-7.62" size="1.778" layer="27">Nathan Seidle</text>
-<text x="48.26" y="-10.16" size="1.778" layer="27">Rev V13 by Patrick Alberts</text>
+<text x="52.07" y="-7.62" size="1.778" layer="27">Nathan Seidle</text>
+<text x="52.07" y="-10.16" size="1.778" layer="27">Rev V13 by Patrick Alberts</text>
 </plain>
 <libraries>
 <library name="SparkFun">

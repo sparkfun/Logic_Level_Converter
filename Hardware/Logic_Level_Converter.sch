@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7837,7 +7837,7 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 <text x="109.22" y="67.31" size="2.54" layer="95">5V</text>
 <text x="123.19" y="72.39" size="2.54" layer="95">2.8V</text>
 <text x="123.19" y="67.31" size="2.54" layer="95">2.8V</text>
-<text x="138.43" y="72.39" size="2.54" layer="95">2.2 V</text>
+<text x="138.43" y="72.39" size="2.54" layer="95">2.2V</text>
 <text x="138.43" y="67.31" size="2.54" layer="95">3.3V</text>
 <text x="109.22" y="62.23" size="2.54" layer="95">5V</text>
 <text x="123.19" y="62.23" size="2.54" layer="95">1.8V</text>
@@ -7845,13 +7845,13 @@ This is the standard Spark Fun Electronics PCB logo.</description>
 <text x="109.22" y="57.15" size="2.54" layer="95">3.3V</text>
 <text x="123.19" y="57.15" size="2.54" layer="95">1.8V</text>
 <text x="138.43" y="57.15" size="2.54" layer="95">2.2V</text>
-<text x="251.46" y="180.34" size="1.778" layer="97">Changes made to v12</text>
-<text x="251.46" y="177.8" size="1.778" layer="97">Library update, increased annular rings</text>
-<text x="251.46" y="172.72" size="1.778" layer="97">BOM changes, NO</text>
-<text x="251.46" y="167.64" size="1.778" layer="97">New Stencil, NO</text>
+<text x="12.7" y="35.56" size="1.778" layer="97">Changes made to v12:</text>
+<text x="15.24" y="33.02" size="1.778" layer="97">Library update, increased annular rings</text>
+<text x="15.24" y="30.48" size="1.778" layer="97">BOM changes, NO</text>
+<text x="15.24" y="27.94" size="1.778" layer="97">New Stencil, NO</text>
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V13</text>
 <text x="104.14" y="93.98" size="2.54" layer="94" font="vector">RX_LV Max = HV x (0.67)</text>
-<text x="17.78" y="5.08" size="1.778" layer="97" font="vector">Nathan Seidle </text>
+<text x="20.32" y="5.08" size="1.778" layer="97" font="vector">Nathan Seidle </text>
 <text x="40.64" y="5.08" size="1.778" layer="97" font="vector">Rev V13 by Patrick Alberts</text>
 </plain>
 <instances>
